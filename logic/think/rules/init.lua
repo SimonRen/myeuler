@@ -1,1 +1,1 @@
-require "rules.basic"
+require "think.rules.basic"

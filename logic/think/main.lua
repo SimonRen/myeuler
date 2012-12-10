@@ -4,7 +4,10 @@ local ipairs = ipairs
 local random = math.random
 local tinsert = table.insert
 local setmetatable = setmetatable
-local rules = require "think.rules"
+
+require "think.rules"
+
+local rules = think.rules
 
 -- validate rules
 for name, rule in pairs(rules) do

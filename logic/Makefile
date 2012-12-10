@@ -1,0 +1,7 @@
+all: test
+
+.PHONY: test
+
+test:
+	@lua test.lua
+

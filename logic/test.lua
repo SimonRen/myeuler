@@ -1,4 +1,6 @@
-local think = require "think"
+package.path = package.path .. ';./?/init.lua'
 
-think.DoThink()
+require "think"
+
+think.main.DoThink()
 
