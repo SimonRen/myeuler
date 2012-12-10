@@ -1,0 +1,25 @@
+room
+    .seats = {none,none,none,none}
+    .base_zhu = 5
+
+seat =
+{
+    {
+      index = i,
+      ['player'] = player,
+
+      zhi_gang_mt = {},
+      wan_gang_mt = {},
+      an_gang_mt = {},
+      hu_mt = {},
+      hu_desc = {}, --对应协议,有点复杂，单独出来描述
+
+      ready = false,
+      lack = 0,
+      is_hu = false,
+      hu_seq = {},
+      chued_seq= {},
+      hand_seq= {}, wan, tong, tiao, lack, mo
+      complex_seq = {},
+      }
+}
