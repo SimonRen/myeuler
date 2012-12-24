@@ -3,5 +3,5 @@ all: test
 .PHONY: test
 
 test:
-	@lua test.lua
+	@luajit test.lua
 
